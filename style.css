@@ -52,7 +52,7 @@ ul{
 }
 header{
     height: 200px;
-    background-image: url(/images/bg-header-mobile.png);
+    background-image: url(./images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -213,7 +213,7 @@ footer .media img:hover{
 }
 @media (min-width: 640px) {
     header{
-        background-image: url(/images/bg-header-desktop.png);
+        background-image: url(./images/bg-header-desktop.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
