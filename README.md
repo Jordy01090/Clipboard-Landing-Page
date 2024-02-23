@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://jordy01090.github.io/Clipboard-Landing-Page/)
+- Live Site URL: [live site here](https://jordy01090.github.io/Clipboard-Landing-Page/)
 
 ## My process
 
