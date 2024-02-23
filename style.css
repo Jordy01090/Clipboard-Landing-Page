@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    /*Primary*/
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    /*Neutral*/
+    --DarkGrayishBlue: hsl(210, 10%, 33%);
+    --GrayishBlue: hsl(201, 11%, 66%);
+}
+
+*{
+    margin: 0;
+    text-decoration: none;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bai Jamjuree", sans-serif;
+}
+section p{
+    color: var(--GrayishBlue);
+}
+h1,h2,h3{
+    color: var(--DarkGrayishBlue);
+    font-weight: 600;
+}
+h1{
+    font-size: 1.8em;  
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.2em;
+}
+button{
+    width: 300px;
+    height: 50px;
+    font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: white;  
+}
+button:hover{
+    cursor: pointer;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+header{
+    height: 200px;
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+header .logo{
+    text-align: center;
+}
+.container{
+    max-width: 1000px;
+    padding: 16px;
+    margin: auto;
+}
+#download .container{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#download .content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#download .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#download button:first-child{
+    border: 1px solid hsl(171, 71%, 39%);
+    border-bottom: 3px solid hsl(171, 71%, 39%);
+    background-color: var(--StrongCyan);
+    box-shadow: 0px 10px 14px hsla(171, 66%, 44%, 0.4);
+}
+#download button:first-child:hover{
+    background-color: hsl(171, 42%, 61%);
+    border: 1px solid hsl(171, 42%, 61%);
+    border-bottom: 3px solid hsl(171, 39%, 52%);
+    transition: all 0.3s ease-in-out;
+}
+#download button:last-child{
+    border: 1px solid hsl(233, 55%, 53%);
+    border-bottom: 3px solid hsl(233, 55%, 53%);
+    background-color: var(--LightBlue);
+    box-shadow: 0px 10px 14px rgba(97, 115, 255, 0.4);
+}
+#download button:last-child:hover{
+    background-color: hsl(233, 96%, 79%);
+    border: 1px solid hsl(233, 96%, 79%);
+    border-bottom: 3px solid hsl(233, 53%, 63%);
+    transition: all 0.3s ease-in-out;
+}
+#features-1 .container{
+    margin-bottom: 40px;
+    text-align: center;
+}
+#features-1 p{
+    margin: 20px 0 40px 0;
+}
+#features-1 img{
+    width: 100%;
+}
+.main-feat{
+    padding: 16px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.main-feat .content{
+    margin-top: 40px;
+}
+#tools .container-2{
+    margin-bottom: 90px;
+    text-align: center;
+    
+}
+#tools .content{
+    margin-bottom: 100px;
+}
+#tools h3{
+    margin-top: 30px;
+}
+#tools p{
+    margin: 20px 0 40px 0;
+}
+#colaborations .container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#colaborations img{
+    margin-bottom: 46px ;
+}
+footer{
+    background-color: rgb(247, 244, 244);
+}
+footer .container{
+    width: 100%;
+    padding: 60px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+footer .logo{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+footer img{
+    width: 100%;
+}
+footer li{
+    padding-bottom: 30px ;
+}
+footer li a{
+    color: black;
+}
+footer li a:hover{
+    transition: all 0.3s ease-in-out;
+    color: var(--StrongCyan);
+}
+footer .media{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+footer .media img:hover{
+    transition: all 0.3s ease-in-out;
+    filter: invert(53%) sepia(78%) saturate(370%) hue-rotate(122deg) brightness(97%) contrast(98%);
+}
+.attribution,
+.attribution a{
+    text-align: center;
+    font-size: 10px;
+}
+@media (min-width: 640px) {
+    header{
+        background-image: url(/images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    button{
+        width: 208px;
+        margin-inline: 12px;
+    }
+    #download .button{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-feat{
+        padding: 0 16px 16px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .main-feat .content{
+        text-align: left;
+        margin: 0 90px;
+    }
+    
+    #features-1 img{
+        object-fit: cover;
+        width: 800px;
+    }
+    .tools .container-2{
+        max-width: 1300px;
+        padding: 16px;
+        margin: auto;
+    }
+    .card-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 390px;
+    }
+    .card .head{
+        display: grid;
+        place-items: center;
+    }
+    #colaborations .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: row;
+    }
+    footer ul{
+        display: flex;
+
+    }
+    footer ul a{
+        margin-inline: 14px;
+    }
+}
