@@ -133,6 +133,18 @@ header .logo{
 #tools .content{
     margin-bottom: 100px;
 }
+#tools .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 14px;
+}
+#tools img{
+    height: 30px;
+}
+
 #tools h3{
     margin-top: 30px;
 }
@@ -157,6 +169,13 @@ footer .container{
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+footer .logo-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 footer .logo{
     width: 60px;
@@ -252,9 +271,20 @@ footer .media img:hover{
     }
     footer ul{
         display: flex;
-
+        margin-inline: 70px;
     }
     footer ul a{
         margin-inline: 14px;
+    }
+    .links {
+        text-align: left;
+        margin-inline: 14px;
+    }
+    footer .logo-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
     }
 }
