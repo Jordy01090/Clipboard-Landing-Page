@@ -117,6 +117,8 @@ header .logo{
     width: 100%;
 }
 .main-feat{
+    max-width: 1440px;
+    margin: auto;
     padding: 16px;
     text-align: center;
     margin-top: 40px;
