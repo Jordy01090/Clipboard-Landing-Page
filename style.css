@@ -64,7 +64,8 @@ header .logo{
     text-align: center;
 }
 .container{
-    max-width: 1000px;
+    
+    max-width: 720px;
     padding: 16px;
     margin: auto;
 }
@@ -213,7 +214,7 @@ footer .media img:hover{
     text-align: center;
     font-size: 10px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 720px) {
     body{
         align-items: center;
         width: 100vw;
@@ -239,7 +240,7 @@ footer .media img:hover{
         align-items: center;
     }
     .main-feat{
-        padding: 0 16px 16px 0;
+        padding: 0;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -251,7 +252,7 @@ footer .media img:hover{
     
     #features-1 img{
         object-fit: cover;
-        width: 800px;
+        width: 460px;
     }
     .tools .container-2{
         max-width: 1300px;
@@ -273,9 +274,15 @@ footer .media img:hover{
     }
     #colaborations .container{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
+    #colaborations img{
+        margin-bottom: 46px;
+        margin-inline: 16px;
+        width: 110px;
+    }
+    
     footer .container{
         display: flex;
         flex-direction: row;
@@ -298,4 +305,19 @@ footer .media img:hover{
         align-items: center;
     
     }
+}
+@media (min-width: 1000px) {
+    .main-feat{
+        padding: 0 16px 16px 0;
+    }
+    #features-1 img {
+        object-fit: cover;
+        width: 800px;
+    }
+    #colaborations img{
+        margin-bottom: 46px;
+        margin-inline: 16px;
+        width: auto;
+    }
+
 }
