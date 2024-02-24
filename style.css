@@ -213,13 +213,22 @@ footer .media img:hover{
     text-align: center;
     font-size: 10px;
 }
-@media (min-width: 640px) {
+@media (min-width: 1000px) {
+    body{
+        align-items: center;
+        width: 100vw;
+    }
     header{
+        height: 200px;
         background-image: url(./images/bg-header-desktop.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
     button{
         width: 208px;
         margin-inline: 12px;
