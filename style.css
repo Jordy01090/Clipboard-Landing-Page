@@ -162,7 +162,7 @@ header .logo{
     margin-bottom: 46px ;
 }
 footer{
-    background-color: rgb(247, 244, 244);
+    background-color: hsl(210deg 22.22% 96.47%);
 }
 footer .container{
     width: 100%;
